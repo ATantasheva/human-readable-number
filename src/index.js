@@ -152,7 +152,7 @@ module.exports = function toReadable (number) {
                     return words[parseInt(num[0])] + ' hundred ' + dozens[90] + ' ' + words[num[2]];
                 }
             } else {
-                return words[parseInt(num[0])] + ' hundred';
+         
             }
     } else {
         return words[number];
